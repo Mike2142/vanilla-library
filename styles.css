@@ -1,14 +1,14 @@
 @font-face {
-  font-family: "LCChalk";
-  src: url("font/lcchalk.eot");
-  src: url("font/lcchalk.eot?#iefix") format("embedded-opentype"),
-      url("font/lcchalk.otf") format("opentype"),
-      url("font/lcchalk.svg") format("svg"),
-      url("font/lcchalk.ttf") format("truetype"),
-      url("font/lcchalk.woff") format("woff"),
-      url("font/lcchalk.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
+    font-family: "LCChalk";
+    src: url("font/lcchalk.eot");
+    src: url("font/lcchalk.eot?#iefix") format("embedded-opentype"),
+        url("font/lcchalk.otf") format("opentype"),
+        url("font/lcchalk.svg") format("svg"),
+        url("font/lcchalk.ttf") format("truetype"),
+        url("font/lcchalk.woff") format("woff"),
+        url("font/lcchalk.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
 }
 
 * {
