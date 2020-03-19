@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>magic library</title>
+
+    <link rel="icon" href="image/magic.png" type="image/png" sizes="16x16">
+    <link href="http://allfont.ru/allfont.css?fonts=lc-chalk" rel="stylesheet" type="text/css" />
+    <link property="stylesheet" href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="app">
+        <h1 class="app__header">
+            магическая библиотека
+            <span class="app__header-span">запиши друзей</span>
+        </h1>
+
+        <div class="app__user-input-wrap">
+            <span class="app__user-input-label">
+                введите имя
+                <img class="app__user-input-img" src="image/key-enter.png">
+            </span>
+            <input class="app__user-input" maxlength="10" autofocus>
+        </div>
+
+        <table class="app__user-table">
+            <thead>
+                <tr class="app__table-head" valign="top">
+
+                    <th class="app__table-head-data">аватар</th>
+                    <th class="app__table-head-data">имя</th>
+                    <th class="app__table-head-data">жанр</th>
+                    <th class="app__table-head-data">печеньки <img class="app__table-img" src="image/click2.svg"></th>
+
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <div class="app__pop">
+            <table class="app__pop-table">
+                <tr class="app__pop-table-info">
+                    <td class="app__pop-table-data app__table-user-data">
+                        <span class="app__pop-data-label">аватар</span>
+                        <input class="app__pop-input" maxlength="3">
+                    </td>
+                    <td class="app__pop-table-data app__table-user-data">
+                        <span class="app__pop-data-label">имя</span>
+                        <input class="app__pop-input" maxlength="10">
+                    </td>
+                    <td class="app__pop-table-data app__table-user-data">
+                        <span class="app__pop-data-label">жанр</span>
+                        <input class="app__pop-input" maxlength="10">
+                    </td>
+                    <td class="app__pop-table-data app__table-user-data">
+                        <span class="app__pop-data-label">печеньки</span>
+                        <input class="app__pop-input" maxlength="10">
+                    </td>
+                </tr>
+            </table>
+            <div class="app__pop-hint">
+
+                <div class="app__pop-hint-item ">
+                    <img class="app__pop-hint-img" src="image/key-enter.png">
+                    сохранить
+                </div>
+
+                <div class="app__pop-hint-item ">
+                    <img class="app__pop-hint-img _small" src="image/key-esc.png">
+                    удалить
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>

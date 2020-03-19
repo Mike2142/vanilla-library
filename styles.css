@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    min-width: 768px;
+    height: 100%;
+    min-height: 360px;
+
+    font-family: 'LC Chalk', arial;
+    font-size: 25px;
+    color:gainsboro;
+
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)) no-repeat center center fixed, url('image/lib1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover, cover;
+    -moz-background-size: cover, cover;
+    -o-background-size: cover, cover;
+    background-size: cover, cover;
+
+    margin: 0;
+    overflow: hidden;
+
+}
+
+body {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    height: 100%;
+    min-width: 400px;
+
+    backdrop-filter: blur(0.8);
+}
+
+input {
+    font-family: "Chalkcyrillicfreehand";
+    font-family: 'LC Chalk', arial;
+    outline: none;
+}
+
+.app {
+    z-index: 1;
+}
+
+.app__header {
+    letter-spacing: 4px;
+    padding: 20px;
+    border: 4px solid #A37C4D;
+    background: url('image/blackboard1.jpg') no-repeat;
+    background-size: cover;
+}
+
+.app__header-span {
+    display: block;
+    font-size: 25px;
+    text-align: center;
+    line-height: 0.8;
+}
+
+.app__user-input-wrap {
+    text-align: center;
+    font-size: 30px;
+    border: 4px solid #A37C4D;
+    background: url('image/blackboard1.jpg') no-repeat;
+    background-size: cover;
+}
+
+.app__user-input-label {
+    margin: 0 auto;
+}
+
+.app__user-input-img {
+    width: 65px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 8px;
+}
+
+.app__user-input {
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    color: gainsboro;
+    background: transparent;
+    border: none;
+    margin: 0 auto;
+}
+
+.app__user-table {
+    position: relative;
+    width: 100%;
+    border: 4px solid #A37C4D;
+    background: url('image/blackboard1.jpg') no-repeat;
+    background-size: cover;
+    margin-top: 33.5px;
+    overflow: scroll;
+}
+
+.app__table-user-data {
+    text-align: center;
+}
+
+.app__table-user-info:hover {
+    color:#5AFF15;
+    color: #00B712;
+    cursor: pointer;
+}
+
+.app__table-img {
+    position: absolute;
+    right: 2px;
+    width: 30px;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+.app__pop {
+    display: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 768px;
+    height: 100%;
+    min-height: 450px;
+    background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 1)) repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.app__pop-table {
+    padding-bottom: 160px;
+}
+
+.app__pop-table-data{
+    display: block;
+}
+
+.app__pop-data-label {
+    display: inline-block;
+    width: 150px;
+}
+
+.app__pop-input {
+    width: auto;
+    height: 60px;
+    font-size: 30px;
+    color: gainsboro;
+    background: url('image/blackboard1.jpg') no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.app__pop-hint {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.app__pop-hint-item {
+    text-align: center;
+}
+
+.app__pop-hint-img {
+    width: 65px;
+    vertical-align: middle;
+}
+
+.app__pop-hint-img._small {
+    width: auto;
+    height: 30px;
+    margin-left: 50px;
+}
