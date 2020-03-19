@@ -1,10 +1,14 @@
 @font-face {
-    font-family: 'LC Chalk';
-    font-style: normal;
-    font-weight: 400;
-    src: local('LC Chalk'), local('LCChalk-Regular'),
-        url(http://allfont.ru/cache/fonts/lc-chalk_f1d4fe8c891a041c5c29929c73b3870a.woff) format('woff'),
-        url(http://allfont.ru/cache/fonts/lc-chalk_f1d4fe8c891a041c5c29929c73b3870a.ttf) format('truetype');
+  font-family: "LCChalk";
+  src: url("font/lcchalk.eot");
+  src: url("font/lcchalk.eot?#iefix") format("embedded-opentype"),
+    url("font/lcchalk.otf") format("opentype"),
+    url("font/lcchalk.svg") format("svg"),
+    url("font/lcchalk.ttf") format("truetype"),
+    url("font/lcchalk.woff") format("woff"),
+    url("font/lcchalk.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
 }
 
 * {
@@ -16,7 +20,7 @@ html, body {
     height: 100%;
     min-height: 360px;
 
-    font-family: 'LC Chalk', arial;
+    font-family: 'LCChalk', arial;
     font-size: 25px;
     color:gainsboro;
 
