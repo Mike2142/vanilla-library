@@ -8,6 +8,8 @@
 - адаптивность до таблет версии (768px)
 - браузеры firefox, chrome, opera
 
+демо https://mike2142.github.io/vanilla-library/
+
 буду рад обратной связи,
 
 2surfingbirds@gmail.com
